@@ -43,14 +43,46 @@
 <section class="homemain" id="homemain">
 <section class="mheader">
 <a href="index.html">  <img src="images/logo.png"  class="logo" hieght="120px" width="240px"></a>
+
 <div class="nav">
-           <li><a href="index.html" class="active">HOME</a></li>
-           <li><a href="about.html" >ABOUT</a></li>
-           <li><a href="#">ADMISSION</a></li>
-           <li><a href="#">CURRICULM</a></li>
-           <li><a href="#">GALLERY</a></li>
-
-
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Admisiion
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+</li>
+  <li><div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Circulam
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+</li>
+  <li><div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Gallery
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+</li>
+<ul> 
+</div>
 </section>
 </br>
 </br>
@@ -114,6 +146,13 @@ Relationships and interactions are characterized by openness, trust, respect, an
 <h3>Delhi Trip</h3>
 </div>
 </section>
+<div class='container-fluid'>
+<div class="row">
+<div class='col-sm-4'>
+<div class="ex1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+</div>
+</div>
+</div>
 <section class="footer">
   <div>
     <h5 style="float:left;text-decoration:underline;">CONTACT</h5></br></br></br>
@@ -133,5 +172,20 @@ Relationships and interactions are characterized by openness, trust, respect, an
   <a href="http://www.praan.rf.gd" style="text-decoration:none;color:white;"><h4>Developed by Praan Web Service</h4></a>
 </section>
 <script src="script/main.js" ></script>
+<script>
+
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
 </body>
 </html>
