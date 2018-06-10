@@ -1,0 +1,196 @@
+body{
+text-align:center;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+line-hieght:1.5;
+margin-left: 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+}
+.main{
+  float: left;
+  width: 100%;
+  color:#2A3132;
+}
+.mission{
+  width:90%;
+  margin-left:50px;
+  float:left;
+
+}
+.headmiss{
+  float:left;
+  font-size:20px;
+  text-decoration: underline;
+}
+.seo{
+float:left;
+height:40px;
+width:100%;
+background-color:#727CB6;
+}
+.header{
+  float:left;
+  width: 100%;
+  background-color: #2A3132;
+  height: 120px;
+}
+.mheader{
+  float:left;
+  width: 100%;
+  background-color: #2A3132;
+  opacity: .8;
+  height: 120px;
+}
+.homemain{
+  float: left;
+  width:100%;
+  background: url("../images/s2.jpg") no-repeat;
+  height: 500px;
+   background-size: cover;
+}
+.homemain1{
+  float: left;
+  width:100%;
+  background: url("../images/2.jpg") no-repeat;
+  height: 500px;
+   background-size: cover;
+}
+
+.logo{
+  float: left;
+  margin-top: 20px;
+  margin-left: 50px;
+  opacity:1;
+}
+.read{
+  border: none;
+  background-color: #727CB6;
+  border-radius: 3px;
+  width:120px;
+  height:50px;
+  float:left;
+  font-size: 15px;
+  cursor: pointer;
+  color:white;
+}
+
+.logo:hover{
+  opacity:1.5;
+}
+.nav{
+  float:right;
+  margin-right: 20px;
+}
+.nav li{
+  display: inline-flex;
+  padding: 20px;
+  padding-top: 40px;
+  font-size: 20px;
+}
+.nav a{
+  text-decoration: none;
+  color:white;
+}
+.nav li:hover{
+  background-color:#727CB6;
+  color:white;
+}
+.active{
+  color:#2A3132;
+
+}
+.footer{
+  float: left;
+  width: 100%;
+  background-color:#323A45;
+  height: auto;
+}
+.praan{
+  float: left;
+  width: 100%;
+  background-color:#323A45;
+  height: auto;
+}
+.topic{
+  float: left;
+  width: 100%;
+  background:url("../images/pattern-1.png") repeat;
+}
+.change{
+  background-color: white;
+  width:35%;
+  height: 45px;
+ font-size: 25px;
+  margin-left: 100px;
+  animation-name: fgh;
+  animation-duration: 5s;
+  border-radius: 2px;
+opacity: .9;
+}
+@keyframes fgh {
+from{
+  opacity: 0;
+}
+  to{
+    opacity: 1;
+  }
+}
+.homeabout{
+  float: left;
+  width: 100%;
+  margin-top: 40px;
+  animation-name: about;
+  animation-duration: 5s;
+
+}
+@keyframes about {
+  from{
+    opacity:0;
+  }
+  to{
+    opacity:1;
+  }
+}
+.aboutde{
+  float:right;
+  width: 50%;
+  margin-right: 20px;
+}
+.homeaboutimg{
+  float:left;
+  margin-left:20px;
+  width:40%;
+}
+.philosphy{
+  float: left;
+  width: 100%;
+  margin-top: 30px;
+  background-color: #EFEFEF;
+
+}
+.philosphy div{
+  float:left;
+  margin-left: 20px;
+  width:30%;
+  background-color: white;
+  height:400px;
+}
+.event div{
+  float:left;
+  margin-left: 20px;
+  width:30%;
+
+}
+.footer div{
+  float: left;
+  margin-left: 20px;
+  width:30%;
+  color:white;
+}
+.event{
+  float: left;
+  width: 100%;
+  background:url("../images/pattern-1.png") repeat;
+
+}
